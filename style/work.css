@@ -1,0 +1,36 @@
+.work {
+  background-image: url(../images/workbg-one.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 170px 0 242px;
+}
+.work__textbox {
+  /* margin: 120px 0 231px; */
+  margin: auto;
+}
+.work__title {
+  height: 72px;
+  width: 350px;
+  margin: auto;
+  margin-bottom: 35px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+}
+.work__link {
+  margin: auto;
+  width: 150px;
+  height: 40px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  background-color: rgba(0, 164, 229, 1);
+  color: rgba(255, 255, 255, 1);
+  padding: 11px 0 11px;
+  text-align: center;
+}
+.work__link:hover {
+  color: rgba(72, 85, 91, 1);
+}

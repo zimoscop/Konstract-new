@@ -1,0 +1,94 @@
+.about {
+  padding: 25px 0 126px;
+}
+
+.about__top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgba(230, 230, 230, 1);
+}
+.about__logo {
+  height: 18px;
+  width: 79px;
+  display: block;
+}
+
+.about__nav {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  height: 16px;
+  display: flex;
+  gap: 35px;
+}
+
+.about__title {
+  text-align: center;
+  margin: 48px 0 77px;
+}
+.about__title::after {
+  display: block;
+  content: "";
+  background-color: rgba(0, 164, 229, 1);
+  height: 2px;
+  width: 50px;
+  margin: auto;
+  margin-top: 11px;
+}
+.about__mixbox {
+  height: 225px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.textbox {
+  width: 405px;
+  height: 226px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.textbox__top {
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 700;
+  height: 81px;
+  width: 405px;
+}
+.about__oneword {
+  color: rgba(0, 164, 229, 1);
+}
+
+.fotobox {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.foto__we {
+  width: 143px;
+  text-transform: uppercase;
+  padding: 15px 0 0 15px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700px;
+  font-size: 24px;
+  line-height: 29px;
+}
+.plan {
+  background-image: url(../images/weplan.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.manage {
+  background-image: url(../images/wemanage.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.build {
+  background-image: url(../images/webuild.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

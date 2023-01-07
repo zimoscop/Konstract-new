@@ -1,0 +1,30 @@
+.home {
+  background-color: rgba(58, 79, 99, 1);
+  background-image: url(../images/home-bgpic.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 41px 0 71px;
+}
+
+header img {
+  height: 23px;
+  width: 101px;
+  margin: auto;
+}
+
+header h1 {
+  margin-top: 306px;
+}
+
+header p {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 221px;
+  text-align: center;
+}
+
+header a {
+  text-align: center;
+}
