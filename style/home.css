@@ -6,8 +6,7 @@
   background-size: cover;
   padding: 41px 0 71px;
 }
-
-header img {
+.home__link {
   height: 23px;
   width: 101px;
   margin: auto;
