@@ -40,6 +40,7 @@
   text-align: center;
   display: inline-block;
   text-transform: uppercase;
+  border: 1px solid rgba(0, 164, 229, 1);
 }
 
 .contact__button:hover {
@@ -49,6 +50,7 @@
 .contact__text {
   font-size: 11px;
   line-height: 15px;
+  font-weight: 400;
   text-align: center;
   margin-top: 50px;
 }
