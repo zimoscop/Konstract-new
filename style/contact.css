@@ -28,6 +28,10 @@
   padding: 11px 0 11px 16px;
   border: none;
 }
+.cont__input:focus {
+  outline: none;
+}
+
 .contact__button {
   width: 150px;
   height: 40px;

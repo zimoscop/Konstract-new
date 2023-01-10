@@ -6,24 +6,25 @@
   background-size: cover;
   padding: 41px 0 71px;
 }
+.home__box {
+  gap: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .home__link {
   height: 23px;
   width: 101px;
-  margin: auto;
+  padding-bottom: 70px;
+  margin: 0 auto;
 }
 
-header h1 {
-  margin-top: 306px;
-}
-
-header p {
-  display: block;
+.home__text {
   font-size: 16px;
   font-weight: 700;
-  margin-bottom: 221px;
   text-align: center;
 }
 
-header a {
+.home__scroll {
   text-align: center;
 }

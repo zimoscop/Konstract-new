@@ -1,5 +1,5 @@
 .services {
-  padding-bottom: 115px;
+  padding: 63px 0 115px;
 }
 
 .services__top {
@@ -8,6 +8,11 @@
   justify-content: space-between;
   margin-bottom: 76px;
 }
+.top__mix {
+  display: flex;
+  gap: 31px;
+}
+
 .sevices__title::after {
   display: block;
   content: "";
@@ -41,9 +46,8 @@
 }
 .mixbox__info {
   width: 295px;
-  height: 330px;
   border: 1px solid rgba(230, 230, 230, 1);
-  padding: 38px 0 0 23px;
+  padding: 38px 22px 39px 23px;
 }
 
 .mixbox__pic {

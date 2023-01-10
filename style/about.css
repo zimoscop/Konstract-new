@@ -1,17 +1,21 @@
 .about {
-  padding: 25px 0 126px;
+  padding: 48px 0 63px;
 }
 
-.about__top {
+.nav__box {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 24px;
-  border-bottom: 1px solid rgba(230, 230, 230, 1);
 }
+
 .about__logo {
   height: 18px;
   width: 79px;
   display: block;
+}
+
+.nav {
+  padding: 25px 0 25px;
+  border-bottom: 1px solid rgba(230, 230, 230, 1);
 }
 
 .about__nav {
@@ -25,7 +29,7 @@
 
 .about__title {
   text-align: center;
-  margin: 48px 0 77px;
+  margin-bottom: 77px;
 }
 .about__title::after {
   display: block;
@@ -36,6 +40,7 @@
   margin: auto;
   margin-top: 11px;
 }
+
 .about__mixbox {
   height: 225px;
   display: flex;
@@ -70,7 +75,7 @@
   text-transform: uppercase;
   padding: 15px 0 0 15px;
   color: rgba(255, 255, 255, 1);
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 24px;
   line-height: 29px;
 }
