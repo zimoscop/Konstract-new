@@ -1,9 +1,10 @@
 .services {
   padding: 63px 0 115px;
+  scroll-margin-top: 2em;
 }
 
 .services__top {
-  height: 40px;
+  height: 41px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 76px;
@@ -13,20 +14,35 @@
   gap: 31px;
 }
 
+.sevices__title {
+  transition: 0.7s;
+}
+
 .sevices__title::after {
   display: block;
   content: "";
   background-color: rgba(0, 164, 229, 1);
-  height: 2px;
+  height: 3px;
   width: 50px;
   margin-top: 11px;
 }
+
+.sevices__title:hover::after {
+  width: 100%;
+  display: block;
+  content: "";
+  background-color: rgba(0, 164, 229, 1);
+  height: 3px;
+  margin-top: 11px;
+  transition: 0.7s;
+}
+
 .title__text {
   width: 405px;
   font-size: 11px;
   line-height: 19px;
 }
-.title__as {
+.title__link {
   width: 150px;
   height: 40px;
   font-weight: 700;
@@ -37,7 +53,7 @@
   padding: 11px 0 11px;
   text-align: center;
 }
-.title__as:hover {
+.title__link:hover {
   color: rgba(72, 85, 91, 1);
 }
 .services__mixbox {

@@ -1,36 +1,17 @@
 .about {
   padding: 48px 0 63px;
-}
-
-.nav__box {
-  display: flex;
-  justify-content: space-between;
-}
-
-.about__logo {
-  height: 18px;
-  width: 79px;
-  display: block;
-}
-
-.nav {
-  padding: 25px 0 25px;
-  border-bottom: 1px solid rgba(230, 230, 230, 1);
-}
-
-.about__nav {
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 16px;
-  height: 16px;
-  display: flex;
-  gap: 35px;
+  scroll-margin-top: 2em;
 }
 
 .about__title {
-  text-align: center;
-  margin-bottom: 77px;
+  width: 121px;
+  margin: 0 auto;
 }
+
+.about__title {
+  transition: 0.7s;
+}
+
 .about__title::after {
   display: block;
   content: "";
@@ -41,12 +22,24 @@
   margin-top: 11px;
 }
 
+.about__title:hover::after {
+  width: 100%;
+  display: block;
+  content: "";
+  background-color: rgba(0, 164, 229, 1);
+  height: 2px;
+  margin-top: 11px;
+  transition: 0.7s;
+}
+
 .about__mixbox {
   height: 225px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: 77px;
 }
+
 .textbox {
   width: 405px;
   height: 226px;
@@ -54,6 +47,7 @@
   flex-direction: column;
   gap: 30px;
 }
+
 .textbox__top {
   font-size: 20px;
   line-height: 27px;
@@ -79,21 +73,18 @@
   font-size: 24px;
   line-height: 29px;
 }
+
 .plan {
   background-image: url(../images/weplan.png);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
+
 .manage {
   background-image: url(../images/wemanage.png);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
+
 .build {
   background-image: url(../images/webuild.png);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }

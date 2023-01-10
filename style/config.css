@@ -11,13 +11,11 @@ html {
 body {
   font-family: "OpenSans", sans-serif;
   color: rgba(72, 85, 91, 1);
-  border-color: rgba(230, 230, 230, 1);
 }
+
 header {
   color: rgba(255, 255, 255, 1);
 }
-
-/* rgba(0, 164, 229, 1)  цвет ховета и ссылок*/
 
 .conteiner {
   max-width: 940px;
@@ -40,6 +38,7 @@ h2 {
   font-weight: 700;
   line-height: 24px;
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 p {

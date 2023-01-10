@@ -45,6 +45,7 @@
   display: inline-block;
   text-transform: uppercase;
   border: 1px solid rgba(0, 164, 229, 1);
+  cursor: pointer;
 }
 
 .contact__button:hover {
