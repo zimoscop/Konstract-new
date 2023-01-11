@@ -14,10 +14,6 @@
   gap: 31px;
 }
 
-.sevices__title {
-  transition: 0.7s;
-}
-
 .sevices__title::after {
   display: block;
   content: "";
@@ -25,6 +21,7 @@
   height: 3px;
   width: 50px;
   margin-top: 11px;
+  transition: 0.7s;
 }
 
 .sevices__title:hover::after {
